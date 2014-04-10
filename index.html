@@ -55,7 +55,12 @@
         </section>
 
         <section id="NYC-page" class="homeSlide">
-          <div class="bcg">
+          <div class="bcg"
+            data-center="background-position: 50% 0px;"
+            data-top-bottom="background-position: 50% -100px;"
+            data-bottom-top="background-position: 50% 100px;"
+            data-anchor-target="#NYC-page"
+          >
             <!-- <img src="images/new-york-city.jpg"> -->
               <div class="hsContainer">
                 <!-- <div class="hsContent">
@@ -65,7 +70,11 @@
                 <!-- <div class="blurb b-one">
                   <p>BORN AND RAISED IN NYC. STUDIED AT STUY HIGH (GO PIRATES!), FINE ARTS/DESIGN AT THE SCHOOL OF VISUAL ARTS, & FRONT-END DEVELOPMENT AT GENERAL ASSEMBLY WITH THE JOE BLISS.</p>
                 </div> -->
-                <img src="images/from-new-york.png" id="NYC-title">
+                <img src="images/from-new-york.png" id="NYC-title"
+                data-bottom-top="left: -100%;"
+                data--30-bottom="left: 0%;"
+                data-anchor-target="#NYC-title"
+                >
                 <div id="ny-bg"></div>
               </div>
             
@@ -80,14 +89,24 @@
         </section>
 
         <section id="Sydney-page" class="homeSlide">
-          <div class="bcg">
+          <div class="bcg"
+              data-center="background-position: 50% 0px;"
+            data-top-bottom="background-position: 50% -100px;"
+            data-bottom-top="background-position: 50% 100px;"
+            data-anchor-target="#Sydney-page"
+          >
             <!-- <img src="images/sydney.jpg"> -->
             <div class="hsContainer">
                 <div class="hsContent">
                   
                 </div>
-                <img src="images/to-sydney.png" id="syd-title">
-                <div id="syd-bg"></div>
+                <img src="images/to-sydney.png" id="syd-title"
+                  data-bottom-top="left: 100%;"
+                  data--30-bottom="left: 0%;"
+                  data-anchor-target="#syd-title"
+                >
+                <!-- <div id="syd-bg"></div> -->
+                <!-- <div id="ny-bg"></div> -->
               </div>
           </div>
         </section>
@@ -176,7 +195,16 @@
         </section>
 
         <footer>
-          <p>footer yo!</p>
+          <a href="#" id="nm-arts">NM</a>
+          <p id="elsewhere">Elsewhere on the web</p>
+          <div id="links">
+            <a href="#" class="behance">behance</a>
+            <a href="#" class="twitter">twitter</a>
+            <a href="#" class="github">github</a>
+            <a href="#" class="linkedin">linkedin</a>
+          </div>
+          <br><br>
+          <p id="copyright">Designed and coded by Nick Morgan &copy; 2014</p>
         </footer>
         
 
@@ -185,7 +213,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/imagesloaded.js"></script>
-        <!--<script src="js/skrollr.js"></script> -->
+        <script src="js/skrollr.js"></script> 
         <script src="js/_main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
