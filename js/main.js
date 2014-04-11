@@ -29,7 +29,7 @@ var navLogo = function() {
 
 $(".samples").mouseenter(function() {
   var info = $(this).children('.info').first();
-  info.animate({top: '4%'}, {duration:400, queue:false});
+  info.animate({top: '0%'}, {duration:400, queue:false});
   info.fadeIn(300);
   console.log("You gettin this?");
   });
@@ -37,7 +37,7 @@ $(".samples").mouseenter(function() {
 $(".samples").mouseleave(function() {
   var info = $(this).children('.info').first();
   info.fadeOut(300);
-  info.animate({top: '75%'}, {duration:400, queue:false});
+  info.animate({top: '93%'}, {duration:400, queue:false});
   });
 
 $('.nav-links a').click(function(){
