@@ -97,9 +97,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .invisible {
-    display: none;
+    visibility: hidden;
 }
 
+.no-display {
+    display: none;
+}
 
 body, html {
     height: 100%;
@@ -282,6 +285,10 @@ main {
     margin-top: 80px;
 }
 
+/***********
+NYC PAGE
+************/
+
 #NYC-page .bcg {
     background-image:url('../images/new-york-city.jpg');
     z-index: 2;
@@ -326,6 +333,10 @@ main {
     background-attachment: fixed;
 }
 
+/***********
+SYDNEY PAGE
+************/
+
 #Sydney-page .bcg {
     background-image:url('../images/sydney.jpg');
     z-index: 4;
@@ -360,6 +371,10 @@ main {
     /*z-index: 5;*/
 }
 
+/********
+WORK PAGE
+*********/
+
 #work {
     background-color: white;
     padding: 25px;
@@ -391,11 +406,18 @@ main {
     width: 33%;
     display: block;
     float: left;
+    position: relative;
+    text-align: center;
+    z-index: 7;
 }
 
 .samples {
     margin: 0 auto;
     padding: 3%;
+    display: block;
+    position: relative;
+    z-index: 8;
+    overflow: hidden;
 }
 
 .sample-image {
@@ -403,7 +425,39 @@ main {
     position: relative;
     text-align: center;
     margin-bottom: 5%;
+    z-index: 9;
 }
+
+.sample-image:hover {
+    opacity: .5;
+    transition: 0.7s;
+
+}
+
+.info {
+    /*display: block;*/
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 10;
+    top: 73%;
+    left: 5%;
+}
+
+.tint {
+    background-color: black;
+
+}
+
+.fade {
+
+}
+
+/**************
+CONTACT PAGE
+**************/
 
 
 #contact {
@@ -485,6 +539,10 @@ main {
     margin-top: 7px;
     margin-bottom: 7px;
 }
+
+/*******
+FOOTER
+*******/
 
 footer {
     display: block;
@@ -653,7 +711,7 @@ footer p#copyright {
  */
 
 .invisible {
-    visibility: hidden;
+    display: none;
 }
 
 /*
