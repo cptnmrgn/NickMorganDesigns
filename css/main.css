@@ -439,6 +439,20 @@ SYDNEY PAGE
     width: 100%;
     /*z-index: 5;*/
 }
+/***********
+STORY-3
+************/
+
+#s-3 {
+    background-color: #00a8ff;
+    height: 500px;
+    color: white;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
 
 /********
 WORK PAGE
@@ -545,24 +559,6 @@ CONTACT PAGE
     height: 500px;
 }
 
-/*#photo-container {
-    width: 55%;
-    height: 100%;
-}
-
-#photo {
-    background-image:url('../images/profile.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    background-position: center center;
-    background-position: 0% 0%;
-    overflow: hidden;
-}*/
-
 #contact-wrapper {
     padding-top: 40px;
 }
@@ -609,6 +605,39 @@ CONTACT PAGE
     text-decoration: none;
     margin-top:11px;
     margin-bottom: 11px;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+#contact-blurb a:hover {
+    color: #f6ff00;
+}
+
+#sportsArt:hover {
+    height:100px;
+    width: 100px;
+    margin: 10px;
+    transition: 0.1s;
+}
+
+#drawing:hover {
+    height:100px;
+    width: 100px;
+    margin: 10px;
+    transition: 0.1s;
+}
+
+#sportsArt {
+    height:80px;
+    width: 80px;
+    margin: 10px;
+}
+
+#drawing {
+    height:80px;
+    width: 80px;
+    margin: 10px;
 }
 
 .contact {
