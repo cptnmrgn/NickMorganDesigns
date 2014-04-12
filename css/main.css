@@ -110,8 +110,12 @@ body, html {
     background-color: blue;
 }
 
+/***********
+NAV HEADER
+***********/
+
 header {
-    /*background-color: rgba(0,0,0,0.7);*/
+    background-color: rgba(0,0,0,0.7);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -120,7 +124,7 @@ header {
     z-index: 100;
 }
 
-#nav-logo {
+/*#nav-logo {
     background: url('../images/nm-logo-cut-out.png');
     background-size: 80px;
     display: block;
@@ -128,7 +132,23 @@ header {
     height: 80px;
     width: 80px;
     margin: 0px 0px 0px 10px;
+}*/
+
+#nav-logo {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    width: 23%;
+    z-index: 101;
 }
+
+/*#nav-logo {
+    position: absolute;
+    top: 0%;
+    left: 10px;
+    width: 80px;
+    z-index: 101;
+}*/
 
 nav {
     float: right;
@@ -516,7 +536,7 @@ WORK PAGE
 .info {
     /*display: block;*/
     position: absolute;
-    width: 90%;
+    width: 91%;
     height: 100%;
     color: black;
     background-color: rgba(255,255,255,0.85);
@@ -614,14 +634,14 @@ CONTACT PAGE
     color: #f6ff00;
 }
 
-#sportsArt:hover {
+#contact-blurb a:hover #sportsArt {
     height:100px;
     width: 100px;
     margin: 10px;
     transition: 0.1s;
 }
 
-#drawing:hover {
+#contact-blurb a:hover #drawing {
     height:100px;
     width: 100px;
     margin: 10px;

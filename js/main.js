@@ -1,29 +1,31 @@
-var previousTop = null;
-$(document).on("scroll",function(){
-  var isOnTop = window.scrollY === 0;
-  if (isOnTop) {
-    //alert('top');
-    // debugger;
-    $('header').css('background-color', 'rgba(0,0,0,0)' );
-    $('#home-logo').css('background-size', '7%');
-    $('#home-logo').fadeIn(100);
-    $('#nav-logo').addClass('invisible');
-    $('#home-logo').animate({'background-size': '23%'}, 400);
-  } else {
-    
-    $('#home-logo').animate({'background-size': '24%'}, 100);
-    $('#home-logo').animate({'background-size': '7%'}, 400);
-    $('#home-logo').fadeOut(100);
-    setTimeout(navLogo, 500);
-  }
-  // $('#nav-logo').removeClass('invisible');
-  // $('header').css('background-color', 'rgba(0,0,0,0.7)' );
-});
+$( document ).ready(function(){
+//LOGO RESIZE FUNCTION
 
-var navLogo = function() {
-  $('#nav-logo').removeClass('invisible');
-  $('header').css('background-color', 'rgba(0,0,0,0.7)' );
-}
+var logoLarge = true;
+var scrolledTop = window.scrollY === 0;
+
+var animateSmall = function() {
+  logoLarge = false;
+  $('#nav-logo').animate({'top': '0%', 'left': '10px', 'width': '80px'}, 500);
+};
+
+var animateLarge = function() {
+  logoLarge = true;
+  $('#nav-logo').animate({'top': '3%', 'left': '1%', 'width': '23%'}, 500);
+};
+
+$(window).on('scroll', function() {
+      scrolledTop = window.scrollY <= 0;
+    if (scrolledTop && !logoLarge) {
+      animateLarge();
+    } else if (logoLarge && !scrolledTop) {
+      animateSmall();
+    };
+
+  });
+
+
+
 
 //PROJECTS HOVER DESCRIPTIONS
 
@@ -45,4 +47,6 @@ $('.nav-links a').click(function(){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 800);
     return false;
+});
+
 });
