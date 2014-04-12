@@ -890,6 +890,60 @@ footer p#copyright {
     /* Style adjustments for high resolution devices */
 }
 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px)and (max-width : 1224px) {
+
+.info p {
+    text-align: left;
+    font-size: .8em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#social-proof p {
+    font-size: .8em;
+}
+
+#rick-rampage p {
+    font-size: .8em;
+}
+
+#how-do-i-look p {
+    font-size: .8em;
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+.story {
+    background-color: white;
+    height: 500px;
+    color: black;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+}
+
+/*tablet view*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
