@@ -232,6 +232,12 @@ main {
     position: relative;
 }
 
+.hsContainer2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 /*.hsContent {
     max-width: 700px;
     position: absolute;
@@ -319,10 +325,10 @@ NYC PAGE
     height: 100%;
 }
 
-#NYC-page .hsContent {
+/*#NYC-page .hsContent {
     top: 5%;
     left: 3%;
-}
+}*/
 
 #NYC-title {
     position: absolute;
@@ -464,6 +470,7 @@ STORY-3
 ************/
 
 #s-3 {
+    display: block;
     background-color: #00a8ff;
     height: 500px;
     color: white;
@@ -891,58 +898,459 @@ footer p#copyright {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1024px)and (max-width : 1224px) {
+@media only screen and (min-width : 1025px)and (max-width : 1224px) {
 
-.info p {
-    text-align: left;
-    font-size: .8em;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    /*.info p {
+        text-align: left;
+        font-size: .8em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }*/
+
+    #social-proof p {
+        font-size: .8em;
+    }
+
+    #rick-rampage p {
+        font-size: .8em;
+    }
+
+    #how-do-i-look p {
+        font-size: .8em;
+    }
+
 }
 
-#social-proof p {
-    font-size: .8em;
+@media only screen and (max-width: 1024px) {
+
+    .story {
+        background-color: white;
+        height: 500px;
+        color: black;
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 33px;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    #stuy a{
+        background-image:url('../images/stuy.png');
+        width: 120px;
+        height: 120px;
+        background-size: 120px 120px;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #SVA a{
+        background-image:url('../images/sva.png');
+        width: 73px;
+        height: 120px;
+        background-size: 73px 120px;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #GA a{
+        background-image:url('../images/logo.png');
+        width: 120px;
+        height: 120px;
+        background-size: 120px 120px;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .s-2 {
+        height: 400px;
+        padding-top: 55px;
+    }
+
+    #s-3 {
+        display: block;
+        background-color: #00a8ff;
+        height: 375px;
+        color: white;
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 33px;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    #s-3 p {
+        margin-top: 70px;
+    }
+
+    .info h3 {
+        font-size: .8em;
+        margin-bottom: 0;
+        margin-top: .5em
+    }
+
+    .info p {
+        text-align: left;
+        font-size: .8em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    #social-proof p {
+        font-size: .7em;
+    }
+
+    #rick-rampage p {
+        font-size: .7em;
+    }
+
+    #how-do-i-look p {
+        font-size: .7em;
+    }
+
+    /**************
+    CONTACT PAGE
+    **************/
+
+    #shout {
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    #other {
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    #contact-blurb a {
+        color: white;
+        font-size: 23px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        margin-top:11px;
+        margin-bottom: 11px;
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+    }
+
+    /*#contact {
+        min-height: 500px;
+    }*/
+
+    #contact {
+        height: 425px;
+    }
+
+    #contact-blurb a:hover {
+        color: #f6ff00;
+    }
+
+    #contact-blurb a:hover #sportsArt {
+        height:100px;
+        width: 100px;
+        margin: 10px;
+        transition: 0.1s;
+    }
+
+    #contact-blurb a:hover #drawing {
+        height:100px;
+        width: 100px;
+        margin: 10px;
+        transition: 0.1s;
+    }
+
+    #sportsArt {
+        height:80px;
+        width: 80px;
+        margin: 10px;
+    }
+
+    #drawing {
+        height:80px;
+        width: 80px;
+        margin: 10px;
+    }
+
+    /*******
+    FOOTER
+    *******/
+
+    #links {
+        display: block;
+        height: 65px;
+        width: 260px;
+        float: right;
+        margin-right: 10px;
+        /*margin-top: 5px;*/
+    }
+
+    #links a {
+        display: block;
+        width: 65px;
+        height: 65px;
+        background-image: url('../images/social-media-sprite-nm.png');
+        float: left;
+          
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #links a.behance {
+      background-position: 0px 0px;
+    }
+
+    #links a.twitter {
+      background-position: -65px 0px;
+    }
+
+    #links a.github {
+      background-position: -130px 0px;
+    }
+
+    #links a.linkedin {
+      background-position: -195px 0px;
+    }
+
+    #links a.behance:hover{
+      background-position: 0px -65px;
+    }
+
+    #links a.twitter:hover{
+      background-position: -65px -65px;
+    }
+
+    #links a.github:hover{
+      background-position: -130px -65px;
+    }
+
+
+    #links a.linkedin:hover {
+      background-position: -195px -65px;
+    }
+
+
+
 }
 
-#rick-rampage p {
-    font-size: .8em;
+@media only screen and (max-width: 975px) {
+
+    /**************
+    CONTACT PAGE
+    **************/
+
+    #contact {
+        height: 520px;
+    }
+
+    #contact-blurb a {
+        color: white;
+        font-size: 23px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        margin-top: 11px;
+        margin-bottom: 0px;
+        display: block;
+        float: left;
+        margin-right: 53px;
+    }
+
+    #other {
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    /*******
+    FOOTER
+    *******/
+
+    footer {
+        display: block;
+        background-color: black;
+        color: white;
+        height: 200px;
+        padding: 20px;
+    }
+
+    footer p#elsewhere {
+        display: inline;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 30%;
+        line-height: 34px;
+        float: left;
+        margin-right: 100px;
+    }
+
+    #links {
+        display: block;
+        height: 65px;
+        width: 260px;
+        float: left;
+        /* margin: 0 auto; */
+        margin-left: 25%;
+        /* margin-top: 37px; */
+    }
+
+    footer p#copyright {
+        display: block;
+        float: left;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 41%;
+        margin-top: 54px;
+    }
+
 }
 
-#how-do-i-look p {
-    font-size: .8em;
-}
+@media only screen and (max-width: 840px) {
 
-}
+    #education {
+        display: block;
+        position: relative;
+        width: 66%;
+        float: right;
+        margin-right: 5%;
+    }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .s-2 {
+        height: 435px;
+        padding-top: 55px;
+    }
 
-.story {
-    background-color: white;
-    height: 500px;
-    color: black;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
-    font-size: 33px;
-    font-weight: bold;
-    padding-top: 2px;
-}
+    /**************
+    CONTACT PAGE
+    **************/
+    #shout {
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .contact {
+        font-size: 20px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    #s-3 {
+        height: 415px;
+    }
+
+    /*******
+    FOOTER
+    *******/
+
+    footer p#elsewhere {
+        display: inline;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 24%;
+        line-height: 34px;
+        float: left;
+        margin-right: 100px;
+    }
+
+    #links {
+        display: block;
+        height: 65px;
+        width: 260px;
+        float: left;
+        /* margin: 0 auto; */
+        margin-left: 17%;
+        /* margin-top: 37px; */
+    }
+
+    footer p#copyright {
+        display: block;
+        float: left;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 36%;
+        margin-top: 54px;
+    }
 
 }
 
 /*tablet view*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    #contact {
+        height: 530px;
+    }
+
+    .work-sample {
+        width: 50%;
+        display: block;
+        float: left;
+        position: relative;
+        text-align: center;
+        z-index: 7;
+    }
+
+    .info h3 {
+        font-size: 1em;
+        margin-bottom: 0;
+        margin-top: .5em;
+    }
+
+    .info p {
+        font-size: .8em;
+    }
+
+    #social-proof p {
+        font-size: .8em;
+    }
+
+    #rick-rampage p {
+        font-size: .8em;
+    }
+
+    #how-do-i-look p {
+        font-size: .8em;
+    }
 
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
+@media only screen and (max-width: 480px) {
+
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-}
+/*@media only screen and (max-width : 320px) {
+
+}*/
 
 /* ==========================================================================
    Print styles.
