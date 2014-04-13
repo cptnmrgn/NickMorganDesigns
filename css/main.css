@@ -1345,6 +1345,70 @@ footer p#copyright {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 480px) {
 
+/***********
+NAV HEADER
+***********/
+
+    header {
+        /*background-color: rgba(0,0,0,0.7);*/
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 80px;
+        z-index: 100;
+    }
+
+    /*#nav-logo {
+        background: url('../images/nm-logo-cut-out.png');
+        background-size: 80px;
+        display: block;
+        float: left;
+        height: 80px;
+        width: 80px;
+        margin: 0px 0px 0px 10px;
+    }*/
+
+    #nav-logo {
+        position: absolute;
+        top: 150%;
+        left: 20%;
+        width: 60%;
+        z-index: 101;
+    }
+
+    /*#nav-logo {
+        position: absolute;
+        top: 0%;
+        left: 10px;
+        width: 80px;
+        z-index: 101;
+    }*/
+
+    nav {
+        float: right;
+        padding-right: 15px;
+    }
+
+    nav a {
+        color: white;
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        /*font-style: italic;*/
+        text-decoration: none;
+        padding: 0px 10px 0px 10px;
+        line-height: 80px;
+    }
+
+    #home-title {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        z-index: 1;
+    }
+
 }
 
 /* Smartphones (portrait) ----------- */
