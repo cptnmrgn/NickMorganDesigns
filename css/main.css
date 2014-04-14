@@ -1396,7 +1396,7 @@ NAV HEADER
 
     header {
         /*background-color: rgba(0,0,0,0.7);*/
-        position: fixed;
+        position: absolute;
         top: 0%;
         left: 0%;
         width: 100%;
@@ -1452,6 +1452,193 @@ NAV HEADER
         left: 0%;
         width: 100%;
         z-index: 1;
+    }
+
+    /*
+    STORY 1
+    */
+
+    .story {
+        color: black;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 25px;
+        
+    }
+
+    #education {
+        display: block;
+        position: relative;
+        width: 90%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    #stuy a{
+        background-image:url('../images/stuy.png');
+        width: 90px;
+        height: 90px;
+        background-size: 90px 90px;
+        background-repeat: no-repeat;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #SVA a{
+        background-image:url('../images/sva.png');
+        width: 54px;
+        height: 90px;
+        background-size: 48px 90px;
+        background-repeat: no-repeat;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #GA a{
+        background-image:url('../images/logo.png');
+        width: 90px;
+        height: 90px;
+        background-size: 90px 90px;
+        background-repeat: no-repeat;
+        display: block;
+        float:right;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #s-3 {
+        display: block;
+        background-color: #00a8ff;
+        height: 375px;
+        color: white;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 25px;
+        /* font-weight: bold; */
+        padding-top: 2px;
+    }
+
+    .work-sample {
+        width: 100%;
+        display: block;
+        float: left;
+        position: relative;
+        text-align: center;
+        z-index: 7;
+    }
+
+    #contact {
+        height: 650px;
+    }
+
+    #contact-pic-div {
+        width: 50%;
+         float: none; 
+        padding: 2% 5% 0% 6%;
+        margin: 0 auto;
+    }
+
+    #contact-blurb {
+        width: 80%;
+        float: none;
+        color: white;
+        margin: 0 auto;
+    }
+
+    #shout {
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        /* font-weight: bold; */
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    #other {
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        /* font-weight: bold; */
+        margin-bottom: 0px;
+        margin-top: 20px;
+     }
+
+    .contact {
+        font-size: 17px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    #contact-blurb a.email {
+        color: white;
+        font-size: 17px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        margin: 0;
+        display: inline-block;
+        float: none;
+     }
+
+     #contact-blurb a {
+        color: white;
+        font-size: 18px;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        margin-top: 11px;
+        margin-bottom: 0px;
+        display: block;
+        float: left;
+        margin-right: 20px;
+    }
+
+    #nm-arts {
+        display: none;
+    }
+
+    footer p#elsewhere {
+        display: inline;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        /* margin-left: 24%; */
+        line-height: 34px;
+        /* float: left; */
+        text-align: center;
+        width: 100%;
+         margin: 0 auto; 
+        /* margin-right: 100px; */
+    }
+
+    #links {
+        display: block;
+        height: 65px;
+        width: 260px;
+        float: none;
+        margin: 0 auto;
+        /* margin-left: 17%; */
+        /* margin-top: 37px; */
+     }
+
+     footer p#copyright {
+        display: block;
+        float: none;
+        font-family: Georgia, sans-serif;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        /* margin-left: 36%; */
+        padding-top: 42px;
+        margin: 0 auto;
     }
 
 }
