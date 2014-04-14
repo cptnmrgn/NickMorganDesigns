@@ -1,26 +1,30 @@
 $( document ).ready(function(){
 //LOGO RESIZE FUNCTION
 
-var logoLarge = true;
-var scrolledTop = window.scrollY === 0;
+//if($(window).width()>480){
 
-var animateSmall = function() {
-  logoLarge = false;
-  $('#nav-logo').animate({'top': '0%', 'left': '10px', 'width': '80px'}, 500);
-};
+      var logoLarge = true;
+      var scrolledTop = window.scrollY === 0;
 
-var animateLarge = function() {
-  logoLarge = true;
-  $('#nav-logo').animate({'top': '3%', 'left': '1%', 'width': '23%'}, 500);
-};
+      var animateSmall = function() {
+        logoLarge = false;
+        $('#nav-logo').animate({'top': '0%', 'left': '10px', 'width': '80px'}, 500);
+      };
 
-$(window).on('scroll', function() {
-      scrolledTop = window.scrollY <= 0;
-    if (scrolledTop && !logoLarge) {
-      animateLarge();
-    } else if (logoLarge && !scrolledTop) {
-      animateSmall();
-    };
+      var animateLarge = function() {
+        logoLarge = true;
+        $('#nav-logo').animate({'top': '3%', 'left': '1%', 'width': '23%'}, 500);
+      };
+
+      $(window).on('scroll', function() {
+            scrolledTop = window.scrollY <= 0;
+          if (scrolledTop && !logoLarge) {
+            animateLarge();
+          } else if (logoLarge && !scrolledTop) {
+            animateSmall();
+          };
+
+  //};
 
   });
 

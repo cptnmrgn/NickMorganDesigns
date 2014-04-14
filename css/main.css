@@ -172,13 +172,22 @@ nav {
 
 nav a {
     color: white;
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    /*font-style: italic;*/
+    /*font-weight: bold;*/
     text-decoration: none;
     padding: 0px 10px 0px 10px;
     line-height: 80px;
+}
+
+
+
+/*.wf-active {        
+   styles to use when web fonts are active   
+}  */ 
+
+.wf-inactive nav a{        
+  font-weight: bold;  
 }
 
 nav a:hover {
@@ -301,7 +310,7 @@ main {
     background-color: white;
     height: 500px;
     color: black;
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
     padding-top: 2px;
@@ -358,7 +367,7 @@ NYC PAGE
     background-color: rgba(0,0,0,0.7);
     padding: 20px; 
     color: white;
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     width: 35%;
@@ -492,7 +501,7 @@ STORY-3
     background-color: #00a8ff;
     height: 500px;
     color: white;
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
     padding-top: 2px;
@@ -508,7 +517,7 @@ WORK PAGE
     padding: 25px;
     padding-bottom: 95px;
     padding-top: 80px;
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*font-size: 60px;*/
     /*font-weight: bold;*/
 }
@@ -627,7 +636,7 @@ CONTACT PAGE
 }
 
 #shout {
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -635,7 +644,7 @@ CONTACT PAGE
 }
 
 #other {
-    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+    font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -956,7 +965,7 @@ footer p#copyright {
         background-color: white;
         height: 500px;
         color: black;
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 33px;
         font-weight: bold;
         padding-top: 2px;
@@ -1011,7 +1020,7 @@ footer p#copyright {
         background-color: #00a8ff;
         height: 375px;
         color: white;
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 33px;
         font-weight: bold;
         padding-top: 2px;
@@ -1051,7 +1060,7 @@ footer p#copyright {
     **************/
 
     #shout {
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
         font-weight: bold;
         margin-bottom: 0px;
@@ -1059,7 +1068,7 @@ footer p#copyright {
     }
 
     #other {
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 26px;
         font-weight: bold;
         margin-bottom: 0px;
@@ -1203,7 +1212,7 @@ footer p#copyright {
     }
 
     #other {
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 0px;
@@ -1275,7 +1284,7 @@ footer p#copyright {
     CONTACT PAGE
     **************/
     #shout {
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 36px;
         font-weight: bold;
         margin-bottom: 0px;
@@ -1421,7 +1430,7 @@ NAV HEADER
 
     nav a {
         color: white;
-        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "AppleGothic", sans-serif;
+        font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
         font-weight: bold;
         /*font-style: italic;*/
