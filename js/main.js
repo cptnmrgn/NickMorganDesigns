@@ -1,7 +1,22 @@
 $( document ).ready(function(){
+
+  $body = $('body');
+  
+    //FadeIn all sections   
+  $body.imagesLoaded( function() {
+          
+          setTimeout(function() {
+            // Fade in sections
+        $body.find('.loading').addClass('hidden')
+        $body.find('#app').removeClass('hidden');
+      }, 1000);
+        
+        
+  });
+
 //LOGO RESIZE FUNCTION
 
-//if($(window).width()>480){
+if($(window).width()>480){
 
       var logoLarge = true;
       var scrolledTop = window.scrollY === 0;
@@ -24,11 +39,11 @@ $( document ).ready(function(){
             animateSmall();
           };
 
-  //};
+  
 
   });
 
-
+};
 
 
 //PROJECTS HOVER DESCRIPTIONS
