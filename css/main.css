@@ -506,12 +506,12 @@ STORY-3
 #s-3 {
     display: block;
     background-color: #00a8ff;
-    height: 500px;
+    height: 400px;
     color: white;
     font-family: "trade_gothic_bold_condensed_no._20", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, 'nexa_boldregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     /*font-weight: bold;*/
-    padding-top: 2px;
+    padding-top: 62px;
 }
 
 
@@ -1526,6 +1526,10 @@ NAV HEADER
         padding-top: 2px;
     }
 
+    #s-3 p {
+        margin-top: 39px;
+    }
+
     .work-sample {
         width: 100%;
         display: block;
@@ -1605,6 +1609,10 @@ NAV HEADER
         display: none;
     }
 
+    footer {
+        height: 178px;
+    }
+
     footer p#elsewhere {
         display: inline;
         font-family: Georgia, sans-serif;
@@ -1637,7 +1645,7 @@ NAV HEADER
         font-size: 12px;
         text-align: center;
         /* margin-left: 36%; */
-        padding-top: 42px;
+        padding-top: 30px;
         margin: 0 auto;
     }
 
